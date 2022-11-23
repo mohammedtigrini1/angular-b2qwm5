@@ -1,0 +1,32 @@
+[
+  {
+    "info": {
+      "name": "composite",
+      "file": "oxygen.json",
+      "coordinates": {
+        "x": 60,
+        "y": 60
+      }
+    }
+  },
+  {
+    "info": {
+      "name": "composite",
+      "file": "hydrogen.json",
+      "coordinates": {
+        "x": 40,
+        "y": 40
+      }
+    }
+  },
+  {
+    "info": {
+      "name": "composite",
+      "file": "hydrogen.json",
+      "coordinates": {
+        "x": 80,
+        "y": 40
+      }
+    }
+  }
+]

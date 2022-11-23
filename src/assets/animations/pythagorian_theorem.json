@@ -1,0 +1,305 @@
+[
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 100,
+        "y": 50
+      },
+      "font": "20px Georgia",
+      "text": "Pythagorean theorem",
+      "color": "#000000"
+    },
+    "animations": [
+      { "name": "appear", "t": 100 },
+      { "name": "disappear", "t": 6000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 100,
+        "y": 75
+      },
+      "font": "15px Georgia",
+      "text": "Proof",
+      "color": "#555555"
+    },
+    "animations": [{ "name": "appear", "t": 100 }]
+  },
+
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 85,
+        "y": 125
+      },
+      "font": "15px Georgia",
+      "text": "a",
+      "color": "#00FF34"
+    },
+    "animations": [
+      { "name": "appear", "t": 500 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 85,
+        "y": 220
+      },
+      "font": "15px Georgia",
+      "text": "b",
+      "color": "#FF0034"
+    },
+    "animations": [
+      { "name": "appear", "t": 1700 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 225,
+        "y": 95
+      },
+      "font": "15px Georgia",
+      "text": "a",
+      "color": "#00FF34"
+    },
+    "animations": [
+      { "name": "appear", "t": 900 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 140,
+        "y": 95
+      },
+      "font": "15px Georgia",
+      "text": "b",
+      "color": "#FF0034"
+    },
+    "animations": [
+      { "name": "appear", "t": 500 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 255,
+        "y": 230
+      },
+      "font": "15px Georgia",
+      "text": "a",
+      "color": "#00FF34"
+    },
+    "animations": [
+      { "name": "appear", "t": 1300 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 255,
+        "y": 150
+      },
+      "font": "15px Georgia",
+      "text": "b",
+      "color": "#FF0034"
+    },
+    "animations": [
+      { "name": "appear", "t": 900 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 120,
+        "y": 265
+      },
+      "font": "15px Georgia",
+      "text": "a",
+      "color": "#00FF34"
+    },
+    "animations": [
+      { "name": "appear", "t": 1700 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 200,
+        "y": 265
+      },
+      "font": "15px Georgia",
+      "text": "b",
+      "color": "#FF0034"
+    },
+    "animations": [
+      { "name": "appear", "t": 1300 },
+      { "name": "disappear", "t": 2000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 140,
+        "y": 210
+      },
+      "font": "22px Georgia",
+      "text": "b²",
+      "color": "#FF0034"
+    },
+    "animations": [{ "name": "appear", "t": 5500 }]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 220,
+        "y": 130
+      },
+      "font": "22px Georgia",
+      "text": "a²",
+      "color": "#00FF34"
+    },
+    "animations": [{ "name": "appear", "t": 5500 }]
+  },
+  {
+    "info": {
+      "name": "text",
+      "coordinates": {
+        "x": 165,
+        "y": 185
+      },
+      "font": "22px Georgia",
+      "text": "c²",
+      "color": "#EC42F5"
+    },
+    "animations": [
+      { "name": "appear", "t": 2000 },
+      { "name": "disappear", "t": 3000 }
+    ]
+  },
+  {
+    "info": {
+      "name": "triangle",
+      "coordinates": [
+        { "x": 100, "y": 100 },
+        { "x": 200, "y": 100 },
+        { "x": 100, "y": 150 }
+      ]
+    },
+    "animations": [
+      {
+        "name": "appear",
+        "t": 500
+      }
+    ]
+  },
+  {
+    "info": {
+      "name": "triangle",
+      "coordinates": [
+        { "x": 200, "y": 100 },
+        { "x": 250, "y": 100 },
+        { "x": 250, "y": 200 }
+      ]
+    },
+    "animations": [
+      {
+        "name": "appear",
+        "t": 900
+      },
+      {
+        "name": "move",
+        "from": {
+          "x": 0,
+          "y": 0,
+          "t": 4000
+        },
+        "to": {
+          "x": 0,
+          "y": 50,
+          "t": 5000
+        }
+      }
+    ]
+  },
+  {
+    "info": {
+      "name": "triangle",
+      "coordinates": [
+        { "x": 250, "y": 200 },
+        { "x": 250, "y": 250 },
+        { "x": 150, "y": 250 }
+      ]
+    },
+    "animations": [
+      {
+        "name": "appear",
+        "t": 1300
+      },
+      {
+        "name": "move",
+        "from": {
+          "x": 150,
+          "y": 250,
+          "t": 3000
+        },
+        "to": {
+          "x": 100,
+          "y": 150,
+          "t": 4000
+        }
+      }
+    ]
+  },
+  {
+    "info": {
+      "name": "triangle",
+      "coordinates": [
+        { "x": 100, "y": 150 },
+        { "x": 100, "y": 250 },
+        { "x": 150, "y": 250 }
+      ]
+    },
+    "animations": [
+      {
+        "name": "appear",
+        "t": 1700
+      },
+      {
+        "name": "move",
+        "from": {
+          "x": 0,
+          "y": 0,
+          "t": 4000
+        },
+        "to": {
+          "x": 100,
+          "y": 0,
+          "t": 5000
+        }
+      }
+    ]
+  }
+]
